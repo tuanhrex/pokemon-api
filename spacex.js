@@ -19,8 +19,8 @@ fetch('https://api.spacexdata.com/v3/missions/F3364BF')
     return response.json();
 })
 
-.then(dragonTwoData => {
-    console.log(dragonTwoData)
+.then(missionData => {
+    console.log(missionData)
 
 })
 
@@ -35,8 +35,8 @@ fetch('https://api.spacexdata.com/v3/rockets/falcon1')
     return response.json();
 })
 
-.then(dragonTwoData => {
-    console.log(dragonTwoData)
+.then(falconOneData => {
+    console.log(falconOneData)
 
 })
 
